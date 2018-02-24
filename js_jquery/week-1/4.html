@@ -1,0 +1,21 @@
+<!--
+Case 1: JS disabled -> browser will ignore line script tags and alert
+AND will dump noscript text
+
+Case 2: JS Enabled -> browser will find alert
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+  <!--
+  alert("hi from javascript")
+  -->
+  </script>
+</head>
+<body>
+  <noscript><p> javascript is disabled </p></noscript>
+</body>
+</html>
