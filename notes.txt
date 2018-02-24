@@ -1,2 +1,0 @@
-// COMP 3913
-// Week 1 - 6: Node.js, MongoDB, MLab and Express, MongoDB and Express APi, AngularJS, Security
