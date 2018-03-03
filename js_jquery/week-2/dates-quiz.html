@@ -1,0 +1,18 @@
+<html>
+<head>
+  <script>
+    /*
+    Quiz Question
+    Rounded number: Weeks until Halloween 2019
+    */
+    var today = new Date();
+    var halloween = new Date(2019, 9, 31, 12, 30, 0);
+    var msTilHalloween = halloween - today;
+    var weeksTilHalloween = msTilHalloween / (1000 * 60 * 60 * 24 * 7);
+    alert(weeksTilHalloween.toFixed(0));
+
+</script>
+</head>
+<body>
+</body>
+</html>

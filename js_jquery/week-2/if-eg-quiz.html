@@ -1,0 +1,39 @@
+<html>
+<head>
+  <script>
+    /* kph = 100;
+
+    if(isNaN(kph)){
+      alert("error: not a number");
+    } else if (kph < 60) {
+      alert("too slow");
+    } else if (kph > 100) {
+      alert("too fast");
+    } else if (kph =< 60 && kph >= 100) {
+      alert("Speed is OK")
+    } else {
+      alert("error");
+    }
+    */
+
+    var speedKmPerHour = 40;
+
+    if (isNaN(speedKmPerHour)) {
+      alert("error: not a number");
+    } else if (speedKmPerHour < 0) {
+      alert("invalid");
+    } else if (speedKmPerHour > 431) {
+      alert("too high: impossible");
+    } else if (speedKmPerHour < 60) {
+      alert("too slow: ticket");
+    } else if (speedKmPerHour > 100) {
+      alert("too fast: ticket");
+    } else {
+      alert("ok");
+    }
+
+  </script>
+</head>
+<body>
+</body>
+</html>
