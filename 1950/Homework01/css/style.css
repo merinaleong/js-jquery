@@ -1,0 +1,75 @@
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+
+
+/* Navigation Bar CSS */
+.navigation ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 1px solid #89ccdb;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 57px;
+    text-decoration: none;
+}
+
+.navigation li a:hover:not(.active) {
+    background-color: #89ccdb;
+}
+
+.navigation li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+/* Bio Text CSS */
+.bio {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+/* Link Styling CSS */
+a:link {
+    text-decoration: none;
+    color: #0078c3;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #0078c3;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0078c3;
+
+}
+
+a:active {
+    text-decoration: underline;
+    color: #0078c3;
+}
+
+
